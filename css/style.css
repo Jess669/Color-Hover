@@ -1,0 +1,84 @@
+.color-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.color div {
+    width: 100px;
+    height: 30px;
+}
+
+.color div:hover {
+    cursor: pointer;
+}
+
+.color-red {
+    background-color: rgb(204, 38, 38);
+}
+
+.color-blue {
+    background-color: rgb(41, 41, 199);
+}
+
+.color-yellow {
+    background-color: rgb(211, 211, 36);
+}
+
+.color-black {
+    background-color: rgb(29, 29, 29);
+}
+
+.color-purple {
+    background-color: rgb(202, 33, 202);
+}
+
+
+
+
+
+
+.color-red:hover {
+    background-color: rgb(224, 44, 44);
+}
+
+.color-blue:hover {
+    background-color: rgb(50, 50, 245);
+}
+
+.color-yellow:hover {
+    background-color: rgb(230, 230, 42);
+}
+
+.color-black:hover {
+    background-color: rgb(221, 45, 45);
+}
+
+.color-purple:hover {
+    background-color: rgb(224, 37, 224);
+}
+
+
+
+
+
+
+.round {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.round-color {
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    border: 1px solid rgb(199, 199, 199);
+    transition: background-color 1s;
+}
